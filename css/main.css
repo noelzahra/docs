@@ -4,6 +4,7 @@ body {
   overflow-x: hidden;
 }
 
+/*Font styles*/
 p {
   font-size: 20px;
 }
@@ -28,12 +29,12 @@ h3,
 h4,
 h5,
 h6 {
-  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
 
+/*Common elements*/
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -70,10 +71,14 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+
+/*Layout styles*/
 header {
+  background: url('../img/hero.jpg') no-repeat center 0;
+  background-size: cover;
   text-align: center;
-  background: #F05F40;
   color: white;
+  min-height: 600px;
 }
 header .container {
   padding-top: 100px;
@@ -83,18 +88,22 @@ header img {
   display: block;
   margin: 0 auto 20px;
 }
-header .intro-text .name {
+header .intro-text {
+  text-align: left;
+}
+header .intro-text h1.title {
   display: block;
-  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 4em;
 }
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
+
+/*Not used
 .profile-pic {
   width: 200px;
   height: 200px;
@@ -109,8 +118,12 @@ header .intro-text .skills {
   margin: auto;
   height: 200px;
   width: 200px;
-}
+}*/
+
 @media (min-width: 768px) {
+  header {
+    min-height: 900px;
+  }
   header .container {
     padding-top: 200px;
     padding-bottom: 100px;
@@ -122,14 +135,20 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+
+/*Navbar styles*/
 .navbar-custom {
-  background: #2C3E50;
-  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: transparent;/*#2C3E50*/
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
 }
+.navbar-fixed-top.scrolled {
+  background-color: #2C3E50!important;
+  transition: background-color 500ms linear;
+}
+
 .navbar-custom .navbar-brand {
   color: white;
 }
@@ -174,10 +193,7 @@ header .intro-text .skills {
   color: white;
   border-color: #F05F40;
 }
-/*.hero {
-  background: url('../img/work_and_play.jpg') no-repeat center center;
-  background-size: cover;
-}*/
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 25px 0;
@@ -217,6 +233,8 @@ section.success {
     padding-top: 75px;
   }
 }
+
+/*Modal styles*/
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -266,6 +284,8 @@ section.success {
     margin: 0 0 30px;
   }
 }
+
+
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
@@ -315,6 +335,8 @@ section.success {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
+
+/*Footer styles*/
 footer {
   color: white;
 }
@@ -339,6 +361,8 @@ footer .footer-below {
   padding: 25px 0;
   background-color: #233140;
 }
+
+/*Button styles*/
 .btn-outline {
   color: white;
   font-size: 20px;

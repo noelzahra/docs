@@ -27,7 +27,7 @@
         offset: {
             top: 100
         }
-    })
+    });
 
     // Floating label headings for the contact form
     $(function() {
@@ -38,6 +38,13 @@
         }).on("blur", ".floating-label-form-group", function() {
             $(this).removeClass("floating-label-form-group-with-focus");
         });
+    });
+
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
     });
 
 })(jQuery);
