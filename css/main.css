@@ -170,7 +170,14 @@ p.skills {
 }
 
 .navbar-custom .navbar-brand {
+  font: 300 1em'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1em;
+  letter-spacing: 6px;
+  padding: 6px;
+  border: 1px solid white;
   color: white;
+  height: 30px;
+  margin: 10px 0 0 10px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -222,16 +229,25 @@ p.skills {
     transition: padding 0.3s;
   }
   .navbar-custom .navbar-brand {
-    font-size: 2em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    letter-spacing: 6px;
+    padding: 10px 12px;
+    border: 1px solid white;
+    color: white;
+    height: 45px;
+    margin: 5px 0 0 0;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
   }
   .navbar-custom.affix {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
+    font-size: 1em;
+    padding: 8px 10px;
+    height: 35px;
   }
 }
 section {
