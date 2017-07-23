@@ -103,6 +103,26 @@ header .intro-text .skills {
   font-weight: 300;
 }
 
+/*Animated type styles*/
+@keyframes typing {
+  from { width: 0 }
+}
+
+@keyframes caret {
+  50% { border-right-color: transparent; }
+}
+
+p.skills {
+  font: 0.8em 'Inconsolata', monospace;
+  /*width: 8.25em;*/
+  width: 39ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .08em solid;
+  animation: typing 6s steps(38),
+             caret 1s steps(1) infinite;
+}
+
 /*Not used
 .profile-pic {
   width: 200px;
