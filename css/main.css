@@ -563,9 +563,7 @@ fieldset[disabled] .btn-success.active {
   background-color: #2C3E50;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
-  /* IE 9 */
   -webkit-transform: rotate(45deg);
-  /* Safari and Chrome */
   z-index: 1051;
 }
 .portfolio-modal .close-modal .lr .rl {
@@ -574,9 +572,7 @@ fieldset[disabled] .btn-success.active {
   background-color: #2C3E50;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
-  /* IE 9 */
   -webkit-transform: rotate(90deg);
-  /* Safari and Chrome */
   z-index: 1052;
 }
 .portfolio-modal .modal-backdrop {
