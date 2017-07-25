@@ -17,10 +17,16 @@
     $email = $_POST['email'];
     $body = $_POST['body'];
 
+    function debug($msg) {
+      echo "<script>console.log(\"$msg\")</script>";
+    };
+
    if (sendemail('noelart@maltanet.net', $email, $name, $body)) {
       $msg ='Email sent successfully';
+      debug($msg);
       } else {
       $msg ='Email failed';
+      debug($msg);
     }
   }
 ?>
