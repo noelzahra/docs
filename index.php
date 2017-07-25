@@ -167,7 +167,7 @@
                     <p>I'm a front-end developer with 10 years experience developing websites and email campaigns for an international software company, <a href="http://www.uniblue.com" target="_blank" class="textlink">Uniblue Systems</a> based in Malta. Front-end development skills include HTML, CSS (including advanced CSS such as flexbox and SCSS) and Javascript. Experienced in OOP javascript, gulpJS, jQuery libraries and Angular JS framework. I've developed responsive websites using both Bootstrap and custom media queries, email campaigns are also built with responsive media queries. All web development is versioned with .hg or .git</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Server side I've intermediate knowledge of PHP 5.0 and Django (a python MVC framework). I'm currently furthering my studies in php 7.0 and aiming to get Zend Certification in PHP by mid-Autumn this year. Have wide experience in optimization and conversion testing across the whole customer journey from landing page to purchase page and the store page. Experienced with localization in various languages on the Django framework for both websites and emails. Some limited wordpress experience, customizing themes and the php loop to display posts in a blog.</p>
+                    <p>Server side I've intermediate knowledge of PHP 5.0 and Django (a python MVC framework). I'm currently furthering my studies in php 7.0 and aiming to get Zend Certification in PHP by end of Autumn this year. Have wide experience in optimization and conversion testing across the whole customer journey from landing page to purchase page and the store page. Experienced with localization in various languages on the Django framework for both websites and emails. Some limited wordpress experience, customizing themes and the php loop to display posts in a blog.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="cv/noel_zahra_cv-2017.pdf" target="_blank" class="btn btn-lg btn-outline">
@@ -178,8 +178,7 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <?php require 'mail/mail.php' ?>
+    <!-- Contact Form -->
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -190,25 +189,32 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form method="post" id="contactForm" novalidate action="mail/mail.php" enctype="multipart/form-data">
+                    <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="name">Name</label>
-                                <input type="text" name="username" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="email">Email Address</label>
-                                <input type="email" name="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="message">Message</label>
-                                <textarea rows="5" class="form-control" name="body" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -216,7 +222,7 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <input type="submit" name="submit" value="Send email">
+                                <button type="submit" class="btn btn-success btn-lg"><i class="fa fa-small fa-envelope-o"></i>Send email</button>
                             </div>
                         </div>
                     </form>
@@ -306,7 +312,7 @@
                             <a href="http://www.uniblue.com/" target="_blank">
                                 <img src="img/portfolio/uniblue-hp.png" class="img-responsive img-centered" alt="uniblue.com">
                             </a>
-                            <p>Developed the Uniblue Systems main site with the whole range of software utility products in Django (a python framework) <a href="http://www.uniblue.com/" target="_blank">uniblue.com</a>. The site is localized in eight languages, with certain features and offers available in certain countries depending on IP or locale. A javascript conditional function checks OS and changes sequence of products, offering the Mac product first for MacOS and Powersuite for Windows OS. The site is complete with google analytics tracking code and SEO </p>
+                            <p>Developed the Uniblue Systems main site with the whole range of software utility products in Django (a python framework) <a href="http://www.uniblue.com/" target="_blank">uniblue.com</a>. Dynamic site localized in eight languages, with certain features and offers available in certain countries depending on IP or locale. A javascript conditional function checks OS and changes sequence of products, offering the Mac product first for MacOS and Powersuite for Windows OS. The site is complete with google analytics tracking code and SEO.</p>
                             <ul class="list-inline item-details">
                                 <li>Homepage:
                                     <strong><a href="http://www.uniblue.com/" target="_blank">homepage</a>

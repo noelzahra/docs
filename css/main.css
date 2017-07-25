@@ -321,7 +321,7 @@ section.success {
   }
 }
 
-
+/*Contact form styles*/
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
@@ -370,6 +370,9 @@ section.success {
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
+}
+form button i {
+  padding-right: 8px;
 }
 
 /*Footer styles*/
@@ -453,10 +456,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: #2C3E50;
   border-color: #2C3E50;
 }
-.btn-primary .badge {
-  color: #2C3E50;
-  background-color: white;
-}
+
 .btn-success {
   color: white;
   background-color: #F05F40;
@@ -495,10 +495,7 @@ fieldset[disabled] .btn-success.active {
   background-color: #F05F40;
   border-color: #F05F40;
 }
-.btn-success .badge {
-  color: #F05F40;
-  background-color: white;
-}
+
 .btn-social {
   display: inline-block;
   height: 50px;

@@ -2,7 +2,7 @@
 (function($) {
     "use strict";
 
-    // page scroll speed
+    // page scroll speed - 1000 was too fast
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
