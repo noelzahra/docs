@@ -53,9 +53,6 @@
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#timeline">Timeline</a>
-                    </li>
-                    <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>
                     <li class="page-scroll">
@@ -65,7 +62,6 @@
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
 
     <header>
@@ -97,6 +93,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-plus fa-2x"></i>
+                                <p class="caption-title">uniblue.com</p>
                             </div>
                         </div>
                         <img src="img/portfolio/uniblue_logo.png" class="img-responsive" alt="uniblue.com">
@@ -107,6 +104,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-plus fa-2x"></i>
+                                <p class="caption-title">ellp.com</p>
                             </div>
                         </div>
                         <img src="img/portfolio/ellp_logo.png" class="img-responsive" alt="ellp.com">
@@ -117,6 +115,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-plus fa-2x"></i>
+                                <p class="caption-title">softwarepatch.com</p>
                             </div>
                         </div>
                         <img src="img/portfolio/sp_logo.png" class="img-responsive" alt="softwarepatch.com">
@@ -127,6 +126,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-plus fa-2x"></i>
+                                <p class="caption-title">Landing pages</p>
                             </div>
                         </div>
                         <img src="img/portfolio/ps_purchase_page_thumbnail.png" class="img-responsive" alt="Landing and purchase pages">
@@ -137,6 +137,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-plus fa-2x"></i>
+                                <p class="caption-title">Email campaigns</p>
                             </div>
                         </div>
                         <img src="img/portfolio/email_thumbnail.png" class="img-responsive" alt="Email campaigns">
@@ -147,6 +148,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-plus fa-2x"></i>
+                                <p class="caption-title">wordpress sites</p>
                             </div>
                         </div>
                         <img src="img/portfolio/wp_logo.png" class="img-responsive" alt="Wordpress sites">
@@ -179,87 +181,7 @@
             </div>
         </div>
     </section>
-
-<!-- Timeline -->
-    <section id="timeline" class="timeline-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Timeline</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!-- To add skills section -->
     <!-- Contact Form -->
     <section id="contact">
         <div class="container">
@@ -610,6 +532,17 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
     <script src="js/main.js"></script>
+    <!-- Google Analytics -->
+    <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-103664845-1', 'auto');
+          ga('send', 'pageview');
+
+    </script>
 
 </body>
 
